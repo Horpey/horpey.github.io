@@ -88,7 +88,8 @@ section {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+    /*font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;*/
+    font-family: 'Comfortaa', cursive;
     font-size: 1rem;
     line-height: 1.5;
     color: #212529;
@@ -11945,7 +11946,7 @@ ul {
 }
 
 a {
-    color: #ffa700;
+    color: #00cedd;
     transition: all .3s;
     position: relative;
     text-decoration: none;
@@ -11955,14 +11956,14 @@ a {
 a:focus,
 a:hover,
 a a:active {
-    color: #ffa700;
+    color: #00cedd;
     text-decoration: underline
 }
 
 nav {
     font-size: 12px;
     line-height: 18px;
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 30px
@@ -11986,13 +11987,13 @@ nav ul li a:after {
     right: 42px;
     opacity: 0;
     transition: background .3s;
-    background: #ffa700
+    background: #00cedd
 }
 
 nav ul li a:hover {
     text-decoration: none;
     transition: all .15s;
-    color: #ffa700
+    color: #00cedd
 }
 
 nav ul li a:hover:after {
@@ -12013,7 +12014,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .personal-profile {
     color: #fff;
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     padding-top: 90px
 }
 
@@ -12070,7 +12071,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .main-header {
     min-height: 100vh;
-    background-color: #ffa700;
+    background: linear-gradient(195deg, rgb(0, 192, 226), rgb(1, 207, 194));
     height: 100%;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -12145,7 +12146,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .site-btn {
-    background-color: #ffa700;
+    background: linear-gradient(195deg, rgb(0, 192, 226), rgb(1, 207, 194));
     height: 50px;
     border-radius: 25px;
     font-size: 14px;
@@ -12208,7 +12209,7 @@ input[type=number]::-webkit-outer-spin-button {
 .menu .menu__wrapper nav {
     font-size: 14px;
     line-height: 20px;
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
     font-weight: 700
 }
@@ -12253,11 +12254,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .menu.menu--active .menu__wrapper a:hover {
-    color: #ffa700!important
+    color: #00cedd!important
 }
 
 .menu.menu--active .menu__wrapper a:after {
-    background: #ffa700!important
+    background: #00cedd!important
 }
 
 .menu.menu--active .menu__mobile-button {
@@ -12270,12 +12271,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .menu.menu--active .menu__mobile-button:hover {
-    color: #ffa700!important;
+    color: #00cedd!important;
     opacity: 1
 }
 
 .menu.menu--active .menu__mobile-button:after {
-    background: #ffa700!important
+    background: #00cedd!important
 }
 
 .project-card {
@@ -12305,7 +12306,7 @@ input[type=number]::-webkit-outer-spin-button {
 .project-card .project-card__title {
     font-size: 18px;
     line-height: 30px;
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
     margin-bottom: 15px;
     font-weight: 700
@@ -12318,7 +12319,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .project-card .project-card__stack {
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     font-size: 12px;
     line-height: 18px;
     font-weight: 700;
@@ -12328,7 +12329,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .project-card .project-card__link {
     margin-top: 55px;
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     font-size: 14px;
     line-height: 20px;
     float: right
@@ -12345,7 +12346,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .resume-list .resume-list_title {
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 5px;
@@ -12356,7 +12357,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .resume-list .resume-list__block {
-    border-left: 2px solid #ffa700;
+    border-left: 2px solid #00cedd;
     padding-left: 25px;
     padding-bottom: 50px
 }
@@ -12368,7 +12369,7 @@ input[type=number]::-webkit-outer-spin-button {
 .resume-list .resume-list__block:before {
     width: 12px;
     height: 12px;
-    border: 2px solid #ffa700;
+    border: 2px solid #00cedd;
     position: absolute;
     content: "";
     border-radius: 50%;
@@ -12382,16 +12383,16 @@ input[type=number]::-webkit-outer-spin-button {
 
 .resume-list .resume-list__block-title {
     text-transform: uppercase;
-    color: #ffa700;
+    color: #00cedd;
     font-size: 14px;
     line-height: 20px;
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     font-weight: 700;
     padding-bottom: 5px
 }
 
 .resume-list .resume-list__block-date {
-    font-family: Inconsolata, monospace;
+    font-family: 'Comfortaa', cursive;
     font-size: 14px;
     line-height: 20px;
     color: #999;
@@ -12448,7 +12449,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .post-cards .post-cards_title {
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
@@ -12465,7 +12466,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .background {
-    background-color: #ffa700;
+    background: linear-gradient(195deg, rgb(0, 192, 226), rgb(1, 207, 194));
     height: 100%;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -12509,7 +12510,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .contacts .contacts__social a:hover {
-    color: #ffa700;
+    color: #00cedd;
     text-decoration: none;
     background-color: #fff
 }
@@ -12536,7 +12537,7 @@ input[type=number]::-webkit-outer-spin-button {
     right: 0;
     bottom: 0;
     border-radius: 2px;
-    border: 2px solid #ffa700;
+    border: 2px solid #00cedd;
     pointer-events: none;
     opacity: 0;
     transition: all .3s
@@ -12684,7 +12685,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .progress-list .progress-list__title {
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     letter-spacing: 5px;
     font-weight: 700;
     color: #999;
@@ -12700,7 +12701,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .progress-list p {
     width: 100%;
-    font-family: Inconsolata, monospace;
+    font-family: 'Comfortaa', cursive;
     margin-bottom: 10px
 }
 
@@ -12714,7 +12715,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .progress-list .progress .progress-bar {
-    background-color: #ffa700
+    background-color: #00cedd
 }
 
 .portfolio-modal .modal-content {
@@ -12756,7 +12757,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .portfolio-modal .portfolio-modal__title {
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     margin-bottom: 30px
 }
 
@@ -12772,7 +12773,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .portfolio-modal .portfolio-modal__link {
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     font-size: 14px;
     line-height: 20px;
     margin-top: 40px
@@ -12786,7 +12787,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .portfolio-modal .portfolio-modal__stack-title {
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     font-size: 12px;
     line-height: 18px;
     font-weight: 700;
@@ -12843,7 +12844,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .article .article__title {
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 30px;
@@ -12876,7 +12877,7 @@ input[type=number]::-webkit-outer-spin-button {
     color: #999;
     font-size: 14px;
     line-height: 20px;
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     font-style: italic
 }
 
@@ -12892,7 +12893,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .article .article__share a:hover {
     opacity: 1;
-    color: #ffa700
+    color: #00cedd
 }
 
 @media screen and (max-width:768px) {
@@ -12921,13 +12922,13 @@ input[type=number]::-webkit-outer-spin-button {
 
 .posts a:hover .posts__title {
     text-decoration: underline;
-    color: #ffa700
+    color: #00cedd
 }
 
 .posts .posts__title {
     font-size: 14px;
     line-height: 20px;
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
     color: #555;
     font-weight: 700;
@@ -12942,7 +12943,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .portfolio-menu .portfolio-menu__link--active {
-    color: #ffa700;
+    color: #00cedd;
     text-decoration: none
 }
 
@@ -12961,7 +12962,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .slider-carousel .slider-carousel__title {
     text-transform: uppercase;
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     margin-top: 80px;
     margin-bottom: 10px
 }
@@ -13079,7 +13080,7 @@ input[type=number]::-webkit-outer-spin-button {
     overflow: auto;
     font-size: 14px;
     line-height: 20px;
-    font-family: Roboto Mono, monospace;
+    font-family: 'Comfortaa', cursive;
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 60px
@@ -13186,7 +13187,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .style-switcher .style-switcher__link--color {
-    background-color: #ffa700
+    background-color: #00cedd
 }
 
 .style-switcher .style-switcher__link--mono {
