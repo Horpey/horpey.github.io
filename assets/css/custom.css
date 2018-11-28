@@ -3,3 +3,10 @@
     cursor: pointer;
     margin: 10px 15px;
 }
+.header-social{
+	    padding: 14px 24px;
+    background: linear-gradient(30deg, #a58637 0%, #EFC864 45%, #d8b356 100%);
+}
+.header-social a:hover{
+	color: white;
+}
